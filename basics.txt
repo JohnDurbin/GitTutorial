@@ -19,6 +19,7 @@ git branch // lists local branches only?
 git branch -a // lists local and remote branches?
 git diff //
 
+
 Other:
 Get out of a commit with no message
 Hit Escape then type : then type wq then hit enter
