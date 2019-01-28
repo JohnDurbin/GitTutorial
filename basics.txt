@@ -4,8 +4,8 @@ git add <file> // Add file(s) to index
 git add . (or git add -A) // add all files in pwd
 git status // Check status of working tree
 git commit -m 'message' // Commit changes in index
-git push // Push to remote repository
-git pull // Pull latest from remote repository
+git push (origin master is optional) // Push to remote repository
+git pull (origin master is optional) // Pull latest from remote repository
 git branch <name> // Create a branch
 git checkout <branch> // Checkout a branch
 git remote add origin https://githut.com/JohnDurbin/GitHubRepositoryName.git
@@ -15,7 +15,9 @@ git reset <filename> (if no filename then all are reset) // Removes file(s) from
 git clone <url> <where to clone>
 ex: git clone https://github.com/Username/remoterepo.git .
 git remote -v //
-git branch -a //
+git branch // lists local branches only?
+git branch -a // lists local and remote branches?
+git diff //
 
 Other:
 Get out of a commit with no message
