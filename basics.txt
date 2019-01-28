@@ -14,5 +14,9 @@ git push -u origin master
 git reset <filename> (if no filename then all are reset) // Removes file(s) from staging area
 git clone <url> <where to clone>
 ex: git clone https://github.com/Username/remoterepo.git .
+git remote -v //
+git branch -a //
+
+Other:
 Get out of a commit with no message
 Hit Escape then type : then type wq then hit enter
