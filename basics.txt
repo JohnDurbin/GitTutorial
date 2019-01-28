@@ -10,17 +10,3 @@ $ git checkout <branch> // Checkout a branch
 $ git remote add origin https://githut.com/JohnDurbin/GitHubRepositoryName.git
 $ git remote add origin git@github.com:JohnDurbin/GitHubRepositoryName.git
 $ git push -u origin master
-
-Installing Git
-Linux
-$ sudo apt-get install git
-
-Linux (Fedora)
-$ sudo yum install git
-
-Mac
-http://git-scm.com/download/mac
-
-Windows
-http://git-scm.com/download/win
-
