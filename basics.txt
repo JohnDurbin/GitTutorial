@@ -1,6 +1,6 @@
 $ git init // Initialize local git repository
 $ git add <file> // Add file(s) to index
-$ git add . // add all files in pwd
+$ git add . (or git add -A) // add all files in pwd
 $ git status // Check status of working tree
 $ git commit -m 'message' // Commit changes in index
 $ git push // Push to remote repository
