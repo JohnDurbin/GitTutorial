@@ -1,15 +1,18 @@
-$ git init // Initialize local git repository
-$ git add <file> // Add file(s) to index
-$ git add . (or git add -A) // add all files in pwd
-$ git status // Check status of working tree
-$ git commit -m 'message' // Commit changes in index
-$ git push // Push to remote repository
-$ git pull // Pull latest from remote repository
-$ git branch <name> // Create a branch
-$ git checkout <branch> // Checkout a branch
-$ git remote add origin https://githut.com/JohnDurbin/GitHubRepositoryName.git
-$ git remote add origin git@github.com:JohnDurbin/GitHubRepositoryName.git
-$ git push -u origin master
-
+$ git command
+git init // Initialize local git repository
+git add <file> // Add file(s) to index
+git add . (or git add -A) // add all files in pwd
+git status // Check status of working tree
+git commit -m 'message' // Commit changes in index
+git push // Push to remote repository
+git pull // Pull latest from remote repository
+git branch <name> // Create a branch
+git checkout <branch> // Checkout a branch
+git remote add origin https://githut.com/JohnDurbin/GitHubRepositoryName.git
+git remote add origin git@github.com:JohnDurbin/GitHubRepositoryName.git
+git push -u origin master
+git reset <filename> (if no filename then all are reset) // Removes file(s) from staging area
+git clone <url> <where to clone>
+ex: git clone https://github.com/Username/remoterepo.git .
 Get out of a commit with no message
 Hit Escape then type : then type wq then hit enter
